@@ -1,0 +1,56 @@
+
+      .tre{
+        letter-spacing:3px;
+        font-size: 40px;
+      }
+      
+      .sticky-top{
+        box-shadow: 2px 6px 10px white;
+      }
+      @media(min-width:256px)and (max-width:600px){
+        .tre{
+            letter-spacing:none;
+            font-size: 13px;
+        }
+      }
+        
+      @media(min-width:600px)and (max-width:900px){
+        .tre{
+            letter-spacing:1px;
+            font-size: 20px;
+        }
+      }
+        
+      @media(min-width:900px)and (max-width:1200px){
+        .tre{
+            letter-spacing:2px;
+            font-size: 30px;
+          }
+      }
+      form{
+        margin-left: 10%;
+
+      }
+      .mb-3{
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+      .btn{
+        margin-left: 2%;
+        margin-bottom: 2%;
+      }
+      .nmp{
+                background:  linear-gradient(270deg,rgb(0, 143, 0),rgb(24, 23, 24));
+                opacity: 0.7;
+      }
+      .nmp:hover{
+      
+        opacity: 1;
+}
+i{
+  opacity: .6;
+}
+i:hover{
+      
+  opacity: 1;
+}
